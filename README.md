@@ -65,9 +65,7 @@ Then the Chromium browser, so you can use the full-screen kiosk mode to display 
 
 Via http://raspberrypi.stackexchange.com/questions/41603/installing-chrome-on-raspbian:
 ```bash
-wget https://dl.dropboxusercontent.com/u/87113035/chromium-browser-l10n_45.0.2454.85-0ubuntu0.15.04.1.1181_all.deb
-wget https://dl.dropboxusercontent.com/u/87113035/chromium-browser_45.0.2454.85-0ubuntu0.15.04.1.1181_armhf.deb
-sudo dpkg -i chromium-browser-l10n_45.0.2454.85-0ubuntu0.15.04.1.1181_all.deb chromium-browser_45.0.2454.85-0ubuntu0.15.04.1.1181_armhf.deb
+sudo apt-get install chromium
 ```
 
 ## Step 3: Disable monitor dimming
